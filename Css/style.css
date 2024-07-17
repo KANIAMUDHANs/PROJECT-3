@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    
+}
+.header
+{
+    background-image: url(../Images/bg2.jpg);
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    color:rgb(255, 247, 12);
+    text-align: center;
+    font-size: 30px;
+    /* border-radius:50px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+    /* background-color: rgb(212, 167, 255); */
+    background-image: url(../Images/cel.webp);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: rgb(255, 191, 108);
+    border-radius: 15px;
+}   
+.nav ul li
+{
+    display: inline;
+    padding: 0px;
+}
+ul{
+    text-align: right;
+    padding: 70px;
+    font-size: 20px;
+}
+a{color: azure;}
+a:hover
+{
+    cursor: pointer;
+    color: rgb(160, 199, 226);
+}
+img:hover{
+    transform: translate(-2px,-8px);
+}
